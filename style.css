@@ -1,4 +1,4 @@
-.header1{
+.display-5{
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -8,7 +8,7 @@
     display: flex;
     align-items: flex-end;
     color: #373A3C; 
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .first{
@@ -65,12 +65,86 @@ text-align: center;
 color: #FFFFFF;
 }
 .spinner-border{
-    margin: 10px;
+    margin-top: 24px;
+    margin-left: 20px;
     visibility: hidden;
 }
 .alert{
     margin-left: 106px;
-    width: 205px;
+    width: 270px;
     margin-top: 10px;
     visibility: hidden;
+    text-align: center;
 }
+
+.display-2{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 72px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: flex-end;
+
+color: #373A3C;
+
+}
+
+#head2{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.saveCalc{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: #373A3C;
+
+}
+#theList{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#theList li{
+   
+    
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 100% */
+
+display: flex;
+justify-content: space-around;
+
+color: #373A3C;
+font-stretch: 100%;
+
+}
+#result-2{
+    margin-top: 50px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 100% */
+
+color: #373A3C;
+}
+
+/* #theList li hr{
+    border: 1px solid #000000;
+} */
