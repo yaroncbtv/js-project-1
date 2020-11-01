@@ -181,9 +181,6 @@ function onClickFibonacci() {
            
             document.getElementById("user-input").style.color = "#D9534F";
             document.getElementById("user-input").style.borderColor = "#D9534F";
-            // result = fibonacci(input);
-            // console.log(result);
-            // document.getElementById("result").innerHTML = result;
           }, 1500);  
 
         }
@@ -191,9 +188,6 @@ function onClickFibonacci() {
       
         
       })
-      
-
-      // document.body.style.backgroundColor = "red";
 
     }
   })
@@ -343,41 +337,6 @@ function onClickFibonacci() {
     
     
 
-  // fetch('http://localhost:5050/fibonacci/51')
-  //   .then(response => {
-  //     if(!response.ok) {
-
-  //       let input = '';
-  //       document.getElementById("result").innerHTML = input;
-
-  //       response.text().then(text => {
-
-  //         throw Error(text)
-
-
-  //       })
-
-  //     }
-  //     else {
-  //      return response.json();
-  //    }    
-  //   })
-
-  //   .catch(err => {
-  //     console.log('caught it!',err);
-  //   })
-
-
-  //   .then(data => {
-  //     console.log(data)
-
-  //   })
-
-
-
-
-
-
   
 
 
@@ -385,15 +344,3 @@ function onClickFibonacci() {
 }
 
 
-// ------------------------------------------------------------------------------------
-// let numInput = '51';
-  // let URL = 'http://localhost:5050/fibonacci/'
-  // URL = URL + numInput
-  // fetch(URL)
-
-  // .then(response => response.json())
-  // .then(data => 
-
-  //   console.log(data)
-
-  // )
